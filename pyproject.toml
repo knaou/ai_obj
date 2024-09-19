@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-obj"
+version = "0.1.0"
+description = "AI Object"
+authors = ["knaou <monaou@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.46.0"
+pydantic = "^2.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
