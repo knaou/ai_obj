@@ -113,7 +113,7 @@ JSON-End-{separator}"""
     response = client.chat.completions.create(
                   model=model,
                   response_format={"type": "json_object"},
-                  temperature=temperature, # TODO: Configurable
+                  temperature=temperature,
                   messages=[
                       {"role": "system", "content": system_prompt},
                       {"role": "user", "content": contents}
